@@ -120,6 +120,8 @@ h1, h2, h3, p { margin-top: 0; }
 .form-required { color: #879289; font-size: 9px; font-weight: 400; letter-spacing: 0; }
 .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 19px; }
 .field-row-three { grid-template-columns: 1fr 1fr 1.2fr; margin-top: 13px; gap: 10px; }
+.boarding-note { margin: 9px 0 0; color: #d3e6ba; font-size: 9px; }
+.boarding-note span { margin-right: 4px; color: var(--green); }
 .field { display: flex; flex-direction: column; gap: 7px; margin-top: 13px; color: #c8d0c7; font-size: 9px; font-weight: 600; }
 .field-row .field { margin-top: 0; }
 .field > span { display: inline; color: var(--green); }

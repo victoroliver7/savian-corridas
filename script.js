@@ -49,7 +49,7 @@ form.addEventListener("submit", (event) => {
   const message = [
     "Olá! Gostaria de consultar uma corrida com a Savian Corridas.",
     "",
-    `📍 Origem: ${data.get("origem")}`,
+    `🚏 Embarque na rodoviária: ${data.get("origem")}`,
     `📍 Destino: ${data.get("destino")}`,
     `📅 Data: ${dateLabel}`,
     `🕒 Horário: ${data.get("horario")}`,

@@ -80,7 +80,7 @@
         <p>Uma corrida particular combina com seus planos — e não o contrário. Você escolhe o trajeto e o horário; a gente conversa sobre os detalhes.</p>
       </div>
       <div class="benefit-grid">
-        <article class="benefit-card"><span class="benefit-number">01</span><div class="benefit-icon icon-route">↗</div><h3>Seu destino é o destino</h3><p>Saída e chegada combinadas com você. Consulte corridas entre cidades em todo o Rio Grande do Sul.</p><span class="card-decoration">↗</span></article>
+        <article class="benefit-card"><span class="benefit-number">01</span><div class="benefit-icon icon-route">↗</div><h3>Seu destino é o destino</h3><p>Embarque na rodoviária da cidade de origem e combine seu destino. Consulte corridas entre cidades em todo o Rio Grande do Sul.</p><span class="card-decoration">↗</span></article>
         <article class="benefit-card"><span class="benefit-number">02</span><div class="benefit-icon icon-clock">◷</div><h3>Na hora que funciona</h3><p>Combine o melhor horário e agende com antecedência para organizar sua viagem com calma.</p><span class="card-decoration">◷</span></article>
         <article class="benefit-card"><span class="benefit-number">03</span><div class="benefit-icon icon-chat">✳</div><h3>Sem surpresas</h3><p>Fale direto com a Savian para confirmar disponibilidade, valor e todos os detalhes antes de viajar.</p><span class="card-decoration">✳</span></article>
       </div>
@@ -98,9 +98,10 @@
         <form class="booking-form" id="booking-form" data-whatsapp-number="5555984220637">
           <div class="form-heading"><span>01 — SUA VIAGEM</span><span class="form-required">* obrigatório</span></div>
           <div class="field-row">
-            <label class="field">De onde você sai? <span>*</span><input name="origem" type="text" placeholder="Cidade de origem" list="cidades-rs" required autocomplete="address-level2"></label>
+            <label class="field">Cidade de embarque <span>*</span><input name="origem" type="text" placeholder="Cidade de origem" list="cidades-rs" required autocomplete="address-level2"></label>
             <label class="field">Para onde vai? <span>*</span><input name="destino" type="text" placeholder="Cidade de destino" list="cidades-rs" required autocomplete="off"></label>
           </div>
+          <p class="boarding-note"><span aria-hidden="true">⌖</span> Embarque somente na rodoviária da cidade de origem.</p>
           <datalist id="cidades-rs">
             <option value="Porto Alegre"><option value="Caxias do Sul"><option value="Canoas"><option value="Pelotas">
             <option value="Santa Maria"><option value="Gravataí"><option value="Novo Hamburgo"><option value="São Leopoldo">
@@ -151,6 +152,7 @@
       <div class="faq-intro"><div class="eyebrow eyebrow-dark">TUDO COMBINADO</div><h2>Ficou com<br><span>alguma dúvida?</span></h2><p>Se sua pergunta não estiver aqui, mande uma mensagem. A gente conversa.</p></div>
       <div class="faq-list">
         <details><summary>Vocês atendem todas as cidades do RS?<span></span></summary><p>Recebemos pedidos de corrida para qualquer cidade do Rio Grande do Sul. A disponibilidade depende do trajeto e da data, então confirme com a gente antes de contar com a viagem.</p></details>
+        <details><summary>Onde é feito o embarque?<span></span></summary><p>O embarque é somente na rodoviária da cidade de origem informada no pedido. Não fazemos embarque em endereço residencial ou em outro ponto da cidade.</p></details>
         <details><summary>O pedido pelo site já confirma a corrida?<span></span></summary><p>Não. O formulário prepara uma mensagem para o WhatsApp. A corrida só fica combinada depois da confirmação de disponibilidade e do valor pela Savian.</p></details>
         <details><summary>Como sei o valor da viagem?<span></span></summary><p>O valor é informado e combinado diretamente antes da confirmação. Envie origem e destino para receber uma consulta.</p></details>
         <details><summary>Posso agendar para outra data?<span></span></summary><p>Sim! Preencha a data e o horário desejados no formulário. Quanto antes você consultar, mais tempo temos para verificar a disponibilidade.</p></details>

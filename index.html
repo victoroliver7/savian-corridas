@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101713">
+  <meta name="description" content="Agende sua corrida com a Savian Corridas. Viagens particulares para qualquer cidade do Rio Grande do Sul, com conforto e praticidade.">
+  <title>Savian Corridas — seu caminho, no seu tempo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Savian Corridas, início">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 42 42" fill="none"><path d="M8 30.5 18.4 10h5.2L34 30.5h-6.2L21 16.8l-6.8 13.7H8Z" fill="currentColor"/><path d="M14.4 26.4h13.2" stroke="#101713" stroke-width="2.6" stroke-linecap="round"/></svg>
+      </span>
+      <span class="brand-name">sav<span>ian</span><small>CORRIDAS</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="#vantagens">Por que Savian</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#perguntas">Dúvidas</a>
+    </nav>
+    <a class="header-cta" href="#agendar">Agendar corrida <span aria-hidden="true">↗</span></a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> CORRIDAS PARTICULARES NO RS</div>
+        <h1>Seu caminho.<br><span>No seu tempo.</span></h1>
+        <p class="hero-description">Uma viagem mais tranquila começa com um bom combinado. Conte com a Savian para ir mais longe, com conforto e atendimento de verdade.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#agendar">Planejar minha corrida <span aria-hidden="true">↗</span></a>
+          <div class="hero-note"><span class="note-icon">✳</span><span>Agende com antecedência<br><strong>e viaje sem pressa</strong></span></div>
+        </div>
+        <div class="hero-proof">
+          <div class="proof-line"></div>
+          <p>Da sua cidade para qualquer destino no <strong>Rio Grande do Sul.</strong></p>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Ilustração de uma estrada entre cidades do Rio Grande do Sul">
+        <div class="art-glow"></div>
+        <div class="art-caption"><span class="caption-line"></span><span>O RS é logo ali</span></div>
+        <svg class="route-map" viewBox="0 0 640 590" fill="none" role="img" aria-labelledby="map-title">
+          <title id="map-title">Trajeto ilustrado de uma viagem pelo Rio Grande do Sul</title>
+          <path class="map-outline" d="m205 42 57 13 41-24 47 29 38-1 35 42 48 10 5 41 46 32-16 45 21 43-31 34 8 44-38 25-2 45-37 18-11 38-53 16-25 46-47-4-34 34-47-17-40 15-27-33-42-9-13-41-34-22 8-44-31-31 18-37-15-39 30-29-1-42 38-16 7-42 47-5 24-37Z"/>
+          <path class="route-shadow" d="M186 409c55-15 51-92 111-100s80 69 129 30 55-95 110-73"/>
+          <path class="route-path" d="M186 409c55-15 51-92 111-100s80 69 129 30 55-95 110-73"/>
+          <circle class="route-pulse" cx="186" cy="409" r="13"/>
+          <circle class="route-start" cx="186" cy="409" r="6"/>
+          <g class="route-destination"><circle cx="536" cy="266" r="14"/><circle cx="536" cy="266" r="5"/></g>
+          <g class="city-label city-origin"><rect x="106" y="431" width="145" height="42" rx="12"/><circle cx="124" cy="452" r="4"/><text x="138" y="456">Sua cidade</text></g>
+          <g class="city-label city-destination"><rect x="427" y="208" width="160" height="42" rx="12"/><circle cx="446" cy="229" r="4"/><text x="460" y="233">Seu destino</text></g>
+          <g class="map-star" fill="#D7F477"><path d="m325 167 4 11 11 4-11 4-4 11-4-11-11-4 11-4 4-11Z"/><path d="m437 428 3 8 8 3-8 3-3 8-3-8-8-3 8-3 3-8Z"/></g>
+          <circle class="map-orbit orbit-one" cx="351" cy="296" r="172"/><circle class="map-orbit orbit-two" cx="351" cy="296" r="205"/>
+        </svg>
+        <div class="art-badge"><span class="badge-spark">✳</span><span>Seu próximo destino<br><strong>começa aqui</strong></span></div>
+      </div>
+      <a class="scroll-hint" href="#vantagens" aria-label="Role para conhecer as vantagens"><span></span> DESCUBRA</a>
+    </section>
+
+    <section class="trust-strip" aria-label="Destaques do serviço">
+      <div><span class="trust-icon">↗</span><span>Viagens intermunicipais</span></div>
+      <div><span class="trust-icon">◷</span><span>Agendamento antecipado</span></div>
+      <div><span class="trust-icon">⌖</span><span>Atendimento em todo o RS</span></div>
+      <div><span class="trust-icon">♡</span><span>Conversa direta, sem complicação</span></div>
+    </section>
+
+    <section class="benefits section-wrap" id="vantagens">
+      <div class="section-heading">
+        <div><div class="eyebrow eyebrow-dark">SUA VIAGEM, DO SEU JEITO</div><h2>Mais que chegar.<br><span>Viajar bem.</span></h2></div>
+        <p>Uma corrida particular combina com seus planos — e não o contrário. Você escolhe o trajeto e o horário; a gente conversa sobre os detalhes.</p>
+      </div>
+      <div class="benefit-grid">
+        <article class="benefit-card"><span class="benefit-number">01</span><div class="benefit-icon icon-route">↗</div><h3>Seu destino é o destino</h3><p>Saída e chegada combinadas com você. Consulte corridas entre cidades em todo o Rio Grande do Sul.</p><span class="card-decoration">↗</span></article>
+        <article class="benefit-card"><span class="benefit-number">02</span><div class="benefit-icon icon-clock">◷</div><h3>Na hora que funciona</h3><p>Combine o melhor horário e agende com antecedência para organizar sua viagem com calma.</p><span class="card-decoration">◷</span></article>
+        <article class="benefit-card"><span class="benefit-number">03</span><div class="benefit-icon icon-chat">✳</div><h3>Sem surpresas</h3><p>Fale direto com a Savian para confirmar disponibilidade, valor e todos os detalhes antes de viajar.</p><span class="card-decoration">✳</span></article>
+      </div>
+    </section>
+
+    <section class="booking-section" id="agendar">
+      <div class="booking-inner">
+        <div class="booking-copy">
+          <div class="eyebrow">VAMOS COMBINAR?</div>
+          <h2>Seu próximo<br>destino começa <span>com um oi.</span></h2>
+          <p>Preencha os detalhes da viagem. A gente prepara sua mensagem para você confirmar tudo pelo WhatsApp.</p>
+          <div class="booking-reminder"><span>✳</span><p><strong>Atenção:</strong> o pedido é uma consulta, não uma reserva confirmada. A corrida depende de disponibilidade e confirmação do valor.</p></div>
+          <div class="booking-trail"><span></span><span></span><span></span></div>
+        </div>
+        <form class="booking-form" id="booking-form" data-whatsapp-number="5555984220637">
+          <div class="form-heading"><span>01 — SUA VIAGEM</span><span class="form-required">* obrigatório</span></div>
+          <div class="field-row">
+            <label class="field">De onde você sai? <span>*</span><input name="origem" type="text" placeholder="Cidade de origem" list="cidades-rs" required autocomplete="address-level2"></label>
+            <label class="field">Para onde vai? <span>*</span><input name="destino" type="text" placeholder="Cidade de destino" list="cidades-rs" required autocomplete="off"></label>
+          </div>
+          <datalist id="cidades-rs">
+            <option value="Porto Alegre"><option value="Caxias do Sul"><option value="Canoas"><option value="Pelotas">
+            <option value="Santa Maria"><option value="Gravataí"><option value="Novo Hamburgo"><option value="São Leopoldo">
+            <option value="Passo Fundo"><option value="Rio Grande"><option value="Erechim"><option value="Bento Gonçalves">
+            <option value="Lajeado"><option value="Santa Cruz do Sul"><option value="Uruguaiana"><option value="Bagé">
+            <option value="Gramado"><option value="Torres"><option value="Ijuí"><option value="Santana do Livramento">
+          </datalist>
+          <div class="field-row field-row-three">
+            <label class="field">Data desejada <span>*</span><input name="data" type="date" required></label>
+            <label class="field">Horário <span>*</span><input name="horario" type="time" required></label>
+            <label class="field">Passageiros <span>*</span><select name="passageiros" required><option value="" disabled selected>Selecione</option><option>1 passageiro</option><option>2 passageiros</option><option>3 passageiros</option><option>4 passageiros</option><option>5 ou mais (consultar)</option></select></label>
+          </div>
+          <label class="field">Algum detalhe importante? <span class="optional">(opcional)</span><textarea name="detalhes" rows="2" placeholder="Bagagem, parada no caminho, acessibilidade..."></textarea></label>
+          <button class="button button-submit" type="submit">Preparar pedido <span aria-hidden="true">↗</span></button>
+          <p class="form-privacy">O pedido só é confirmado após retorno da Savian e confirmação da disponibilidade.</p>
+          <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+          <div class="message-preview" id="message-preview" hidden>
+            <label class="field" for="prepared-message">Sua mensagem está pronta para compartilhar ou copiar:</label>
+            <textarea id="prepared-message" rows="8" readonly></textarea>
+            <div class="message-actions">
+              <a class="button message-send" id="send-whatsapp" href="#" target="_blank" rel="noopener noreferrer">Enviar pelo WhatsApp <span aria-hidden="true">↗</span></a>
+              <button class="button message-share" id="share-message" type="button" hidden>Compartilhar mensagem <span aria-hidden="true">↗</span></button>
+              <button class="button message-copy" id="copy-message" type="button">Copiar mensagem</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="steps-section section-wrap" id="como-funciona">
+      <div class="eyebrow eyebrow-dark">SIMPLES ASSIM</div>
+      <div class="steps-heading"><h2>Três passos.<br><span>Uma boa viagem.</span></h2><p>Você combina. A Savian cuida do caminho.</p></div>
+      <div class="steps">
+        <article class="step"><span class="step-index">01</span><div class="step-graphic graphic-chat"><span>Olá! Quero uma corrida ✳</span><i>⌁</i></div><h3>Conte seus planos</h3><p>Informe origem, destino, data e horário para consultar sua corrida.</p></article>
+        <article class="step"><span class="step-index">02</span><div class="step-graphic graphic-check"><span>Disponibilidade</span><b>✓</b><span>Valor combinado</span><b>✓</b></div><h3>Confirme os detalhes</h3><p>Aguarde o retorno para combinar disponibilidade, valor e demais detalhes.</p></article>
+        <article class="step"><span class="step-index">03</span><div class="step-graphic graphic-go"><span>É hora de ir!</span><i>↗</i></div><h3>Boa viagem!</h3><p>Com tudo confirmado, é só se preparar para seguir seu caminho.</p></article>
+      </div>
+    </section>
+
+    <section class="coverage">
+      <div class="coverage-pin">⌖</div>
+      <div><div class="eyebrow">DO LITORAL À FRONTEIRA</div><h2>O Rio Grande do Sul<br>é o nosso caminho.</h2><p>Consulte corridas entre cidades de todo o estado. Você escolhe o trajeto; a gente confirma a disponibilidade.</p></div>
+      <a class="button button-light" href="#agendar">Consultar minha rota <span aria-hidden="true">↗</span></a>
+      <div class="coverage-decoration" aria-hidden="true">RS</div>
+    </section>
+
+    <section class="faq-section section-wrap" id="perguntas">
+      <div class="faq-intro"><div class="eyebrow eyebrow-dark">TUDO COMBINADO</div><h2>Ficou com<br><span>alguma dúvida?</span></h2><p>Se sua pergunta não estiver aqui, mande uma mensagem. A gente conversa.</p></div>
+      <div class="faq-list">
+        <details><summary>Vocês atendem todas as cidades do RS?<span></span></summary><p>Recebemos pedidos de corrida para qualquer cidade do Rio Grande do Sul. A disponibilidade depende do trajeto e da data, então confirme com a gente antes de contar com a viagem.</p></details>
+        <details><summary>O pedido pelo site já confirma a corrida?<span></span></summary><p>Não. O formulário prepara uma mensagem para o WhatsApp. A corrida só fica combinada depois da confirmação de disponibilidade e do valor pela Savian.</p></details>
+        <details><summary>Como sei o valor da viagem?<span></span></summary><p>O valor é informado e combinado diretamente antes da confirmação. Envie origem e destino para receber uma consulta.</p></details>
+        <details><summary>Posso agendar para outra data?<span></span></summary><p>Sim! Preencha a data e o horário desejados no formulário. Quanto antes você consultar, mais tempo temos para verificar a disponibilidade.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#inicio" aria-label="Savian Corridas, voltar ao início">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 42 42" fill="none"><path d="M8 30.5 18.4 10h5.2L34 30.5h-6.2L21 16.8l-6.8 13.7H8Z" fill="currentColor"/><path d="M14.4 26.4h13.2" stroke="#101713" stroke-width="2.6" stroke-linecap="round"/></svg></span>
+      <span class="brand-name">sav<span>ian</span><small>CORRIDAS</small></span>
+    </a>
+    <p>Seu caminho. No seu tempo.</p>
+    <a class="footer-contact" id="footer-whatsapp" href="#" target="_blank" rel="noopener noreferrer">WhatsApp: (55) 98422-0637 <span aria-hidden="true">↗</span></a>
+    <span class="footer-copy">© <span id="current-year"></span> Savian Corridas · Rio Grande do Sul</span>
+  </footer>
+</body>
+</html>

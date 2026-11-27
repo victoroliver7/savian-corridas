@@ -167,7 +167,49 @@
     </a>
     <p>Seu caminho. No seu tempo.</p>
     <a class="footer-contact" id="footer-whatsapp" href="#" target="_blank" rel="noopener noreferrer">WhatsApp: (55) 98422-0637 <span aria-hidden="true">↗</span></a>
+    <button class="history-access" id="history-access" type="button" aria-haspopup="dialog">Histórico</button>
     <span class="footer-copy">© <span id="current-year"></span> Savian Corridas · Rio Grande do Sul</span>
   </footer>
+
+  <dialog class="history-dialog" id="history-dialog" aria-labelledby="history-title">
+    <div class="history-dialog-head">
+      <div>
+        <span class="eyebrow eyebrow-dark">ÁREA ADMINISTRATIVA</span>
+        <h2 id="history-title">Histórico de corridas</h2>
+      </div>
+      <button class="history-close" id="history-close" type="button" aria-label="Fechar">×</button>
+    </div>
+
+    <form class="history-login" id="history-login">
+      <label class="field history-password-field">Senha de administrador
+        <input id="history-password" type="password" autocomplete="current-password" required>
+      </label>
+      <p class="history-feedback" id="history-feedback" role="status" aria-live="polite"></p>
+      <button class="button button-primary" type="submit">Acessar histórico</button>
+    </form>
+
+    <div class="history-content" id="history-content" hidden>
+      <div class="history-summary">
+        <span id="history-scheduled">0 agendadas</span>
+        <span id="history-completed">0 realizadas</span>
+      </div>
+      <div class="history-table-wrap">
+        <table class="history-table">
+          <thead>
+            <tr>
+              <th>Data</th>
+              <th>Trajeto</th>
+              <th>Horário</th>
+              <th>Passageiros</th>
+              <th>Status</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody id="history-body"></tbody>
+        </table>
+      </div>
+      <button class="button history-clear" id="history-clear" type="button">Limpar todo o histórico</button>
+    </div>
+  </dialog>
 </body>
 </html>
